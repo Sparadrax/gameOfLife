@@ -1,0 +1,44 @@
+<!-- Original Game of Life experiment. A grid of live/dead cells is updated from a copy of the previous board. -->
+<html>
+    <head>
+        <link 
+            rel="stylesheet" 
+            href="/Lib/Bootstrap4.0/css/bootstrap.min.css">
+        <link 
+            rel="stylesheet" 
+            href="/Projects/gameOfLife/gameOfLife.css">
+        <title>Louis du Beux</title>
+        <script type="importmap">
+            {
+              "imports": {
+                "three": "../../Lib/Three/Three.js"
+              }
+            }
+          </script>
+        <style>
+			body { margin: 0; }
+		</style>
+        <link rel="stylesheet" href="/Theme.css?v=1">
+</head>
+    <body class="w-100 h-100">    
+        <!--  position:absolute; width: 100%; -->
+        <!-- Shared navigation is populated by /NavBar.js. -->
+        <div id="nav-placeholder" style="height: 6%;">
+        </div>
+        <!-- <div id="three"  style="height: 95%;"> -->
+            <!-- <div id="three" name="three" class="three"> -->
+                <!-- Load the project entry module after its controls and view containers exist. -->
+                <script type="module" src="./gameOfLife.js"></script>
+            <!-- </div> -->
+        <!-- </div> -->
+        <script 
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+            ></script>
+        <script 
+            src="/Lib/Bootstrap4.0/js/bootstrap.min.js"
+            ></script>
+        
+
+        <script src="/NavBar.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+/* Original Game of Life experiment. A grid of live/dead cells is updated from a copy of the previous board.
+ * Page-specific layout and controls; shared theme colors are supplied by /Theme.css.
+ */
+#gui { position: absolute; top: 15%;}
